@@ -20,3 +20,15 @@ then frames were extracted using ffmpeg.Finally the data was split into train, t
 After the data is prepared, I used CNN to classify images and train the model. 
 Using Image data generator to augment the data and convert image size to 64*64. It neatly takes in the data according to classes. Following model is used to train and validate the images:
 
+![Alt text](https://github.com/prajacta-nagraj/Indoor-Outdoor-Scene-Classification/blob/master/modelcnn.png?raw=true "Model")
+
+
+After trial/error and using early stopping method overfitting was reduced and the model showed accuracy of 80% for test data.
+
+![Alt text](https://github.com/prajacta-nagraj/Indoor-Outdoor-Scene-Classification/blob/master/Graphs.png?raw=true "Accuracy")
+
+
+## Image Classification 
+To finally test the image run Scene-Classification.py file and provide the test image name when prompted.( test image should be in the current directory with othe saved model).
+
+
