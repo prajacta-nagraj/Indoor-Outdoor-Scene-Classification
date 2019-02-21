@@ -32,6 +32,9 @@ After trial/error and using early stopping method overfitting was reduced and th
 To finally test the image run Scene-Classification.py file and provide the test image name when prompted.( test image should be in the current directory with othe saved model).
 $ python Scene-Classification.py
 
+## Future Work
+As seen from the above model few changes can be made to increase accuracy of the model including increasing the training data,image augmentation, L1/L2 regularization. We can also include more layers of Dropout in the end.
+
 ## References
 -Youtube-8m dataset 
 -Keras/tensorflow blogs and tutorials on modeling a CNN.
