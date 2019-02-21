@@ -30,5 +30,12 @@ After trial/error and using early stopping method overfitting was reduced and th
 
 ## Image Classification 
 To finally test the image run Scene-Classification.py file and provide the test image name when prompted.( test image should be in the current directory with othe saved model).
+$ python Scene-Classification.py
+
+## References
+-Youtube-8m dataset 
+-Keras/tensorflow blogs and tutorials on modeling a CNN.
+
+
 
 
